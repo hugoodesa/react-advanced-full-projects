@@ -1,0 +1,29 @@
+.button {
+  box-sizing: border-box;
+  height: 3.5rem;
+  width: 20rem;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.buttonProgress {
+  background-color: var(--primary);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.buttonProgress:hover {
+  background-color: var(--primary-dark);
+}
+
+.buttonStop {
+  background-color: var(--error);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.buttonStop:hover {
+  background-color: var(--error-dark);
+}
